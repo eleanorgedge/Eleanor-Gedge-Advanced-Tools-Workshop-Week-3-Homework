@@ -4,20 +4,22 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-h1,
-h2,
-h3 {
-  text-align: center;
-  margin: 0;
-  font-weight: 500;
-  line-height: 1.2;
+h2 {
+  padding-top: 30px;
+}
+
+.weather-heading {
+  text-align: right;
+    padding-top: 30px;
+}
+
+.weather-section {
+  text-align: right;
 }
 
 .projects {
   font-size: 18px;
   line-height: 1.5;
-  text-align: left;
-  padding: 20px;
 }
 .about {
   font-size: 18px;
@@ -97,5 +99,9 @@ h3 {
   line-height: 1.5;
   text-align: center;
   padding: 20px 20px 20px 20px;
+}
+h2, .weather-heading {
+  text-align: center;
+  padding: 0;
 }
 }
