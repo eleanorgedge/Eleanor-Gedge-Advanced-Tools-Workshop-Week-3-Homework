@@ -71,15 +71,6 @@ h3 {
   display: block;
 }
 
-.about-paragraphs {
-  display: flex;
-  margin: 30px 0;
-}
-
-.about-paragraphs p {
-  margin: 10px;
-}
-
 .email-link {
   display: flex;
   justify-content: center;
@@ -106,7 +97,6 @@ h3 {
 
 @media (max-width:576px) {
 .projects{
-  font-size: 12px;
   text-align:center;
 }
 }
