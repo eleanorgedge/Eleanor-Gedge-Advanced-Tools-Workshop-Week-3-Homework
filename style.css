@@ -48,7 +48,7 @@ h3 {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
-  text-transform: capitalize;
+  text-align: center;
 }
 
 .contact-link,
@@ -98,5 +98,8 @@ h3 {
 @media (max-width:576px) {
 .projects{
   text-align:center;
+}
+.navigation-links{
+  text-align: center;
 }
 }
