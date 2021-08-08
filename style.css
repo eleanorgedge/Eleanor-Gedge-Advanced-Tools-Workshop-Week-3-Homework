@@ -13,28 +13,17 @@ h3 {
   line-height: 1.2;
 }
 
-h1 {
-  font-size: 96px;
-}
-
-h2 {
-  font-size: 48px;
-}
-
-h3 {
-  font-size: 24px;
-  opacity: 0.7;
-}
-
 .projects {
   font-size: 18px;
   line-height: 1.5;
   text-align: left;
+  padding: 20px;
 }
 .about {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+  padding: 20px;
 }
 
 .navigation-links {
@@ -103,4 +92,5 @@ h3 {
 .navigation-links{
   text-align: center;
 }
+
 }
