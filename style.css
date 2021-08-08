@@ -10,7 +10,7 @@ h2 {
 
 .weather-heading {
   text-align: right;
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .weather-section {
@@ -30,10 +30,18 @@ h2 {
 
 .navigation-links {
   display: flex;
-  margin-top: 20px;
-  margin-bottom:20px;
+  margin: 20px 0 20px 0;
   justify-content: center;
 }
+
+.yoga-button, .yogurt-button {
+  justify-content: left;
+}
+
+.weather-button {
+  justify-content: flex-end;
+}
+
 
 .navigation-links a {
   margin: 20px;
@@ -91,9 +99,7 @@ h2 {
 .projects{
   text-align:center;
 }
-.navigation-links{
-  text-align: center;
-}
+
 .about {
   font-size: 18px;
   line-height: 1.5;
@@ -104,4 +110,10 @@ h2, .weather-heading {
   text-align: center;
   padding: 0;
 }
+
+.navigation-links {
+  justify-content: center;
+  margin: 20px;
+}
+
 }
