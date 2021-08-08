@@ -23,7 +23,7 @@ h3 {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
-  padding: 20px;
+  padding: 20px 70px 20px 70px;
 }
 
 .navigation-links {
@@ -92,5 +92,10 @@ h3 {
 .navigation-links{
   text-align: center;
 }
-
+.about {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
 }
